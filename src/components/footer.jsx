@@ -24,7 +24,7 @@ export default function Footer(){
    </div>
    <div className="footer-second">
        <div className="footer-logo">
-           <a href="/" >
+           <a href="#" >
            <img src={logoimg} alt="img"/>
 
            </a>

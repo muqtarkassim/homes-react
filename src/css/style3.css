@@ -12,6 +12,11 @@
   .sigin p{
     color: red;
   }
+  .sigin h6{
+    color: green;
+    font-family: monospace;
+    font-size: larger;
+  }
   .formsign {
     text-align: center;
     padding: 20px;

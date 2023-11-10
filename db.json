@@ -173,5 +173,31 @@
       "image": "https://media.istockphoto.com/id/1479374222/photo/portrait-of-a-happy-helpful-black-female-volunteer-young-adult-multiethnic-latina-with-afro.webp?b=1&s=170667a&w=0&k=20&c=mT62DO3L1LcmJWRTFI6DTpx2oGFvHaeShkaV_s_PnsU=",
       "id": 6
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "muqtar kassim",
+      "email": "muqtar@gmail.com",
+      "password": "0726539098"
+    },
+    {
+      "id": 2,
+      "username": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "555-987-6543"
+    },
+    {
+      "id": 3,
+      "username": "James walker",
+      "email": "James @example.com",
+      "password": "555-907-26272"
+    },
+    {
+      "username": "ali abdi",
+      "password": "6954",
+      "email": "abdi@gmail.com",
+      "id": 4
+    }
   ]
 }

@@ -1,0 +1,38 @@
+
+  
+  .sigin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    background-color: #f0f0f0; /* Add your preferred background color */
+  }
+  .sigin p{
+    color: red;
+  }
+  .formsign {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    max-width: 400px; /* Adjust the width as needed */
+  }
+  
+  .formsign form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formsign label {
+    margin-bottom: 10px;
+  }
+  
+  .formsign input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }

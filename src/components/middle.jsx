@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
  export default function Middle(){
     return( 
          <>
@@ -9,7 +10,9 @@ import React from "react";
                 <div className="house-content">
                 <h3>Buy a home </h3>
                 <p>Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
-                <button  id="buy-homes">Browse homes</button>
+                <button  id="buy-homes">
+                <NavLink to= "/buy" >Buy homes</NavLink>
+                </button>
             </div>
             </div>
         <div className="inner-card">
@@ -17,7 +20,9 @@ import React from "react";
                 <div className="house-content">
                     <h3>Sell a home </h3>
                     <p>Sell your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
-                    <button id="sell-homes">Sell homes</button>
+                    <button id="sell-homes">
+                    <NavLink to= "/sell" >Sell homes</NavLink>
+                    </button>
                 </div>
             </div>
             <div className="inner-card">
@@ -25,7 +30,8 @@ import React from "react";
                 <div className="house-content">
                     <h3>Rent a home </h3>
                     <p>Rent a place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
-                    <button  id="rent-homes">Rent homes</button>
+                    <button  id="rent-homes">
+                    <NavLink to= "/rent" >Rent homes</NavLink></button>
                 </div>
             </div>
             </div>

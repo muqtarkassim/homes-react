@@ -1,6 +1,6 @@
 import React from "react";
-
-export default function Header(){
+import { NavLink } from "react-router-dom";
+export default function Header({isAuthenticated}){
     return(
         <>
         <div className="container-head" id="container-head-id">
@@ -17,7 +17,7 @@ export default function Header(){
             <div className="get-rec">
                 <h3>Get home recommendations</h3>
                 <p>sign in for a more personalized experience </p>
-                <button className="sign-rec">Sign in</button>
+                {!isAuthenticated && <NavLink to="/signin"><button className="sign-rec">sigin</button></NavLink>}
             </div>
             <div className="image-rec">
                 <div className="image-containers">

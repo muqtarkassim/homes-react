@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Footer from "./footer";
 export default function Sell({databuy,setdata}) {
   const [formData, setFormData] = useState({
     type: "",
@@ -45,6 +45,9 @@ function handleSubmit(e){
 }
 ////////////////////////>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<
   return (
+    <>
+    <h3> Enter your Home details here</h3>
+    <p> then submit to make it available in the markets</p>
     <div className="form-data">
       <form onSubmit={(e) => handleSubmit(e)}>
         <div>
@@ -120,5 +123,7 @@ function handleSubmit(e){
         <button type="submit">Submit</button>
       </form>
     </div>
+    <Footer/>
+    </>
   );
 }

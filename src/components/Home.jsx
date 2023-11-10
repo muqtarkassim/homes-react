@@ -3,11 +3,11 @@ import Footer from "./footer";
 import Header from "./head";
 import Middle from "./middle";
 
-export default function Home(){
+export default function Home({isAuthenticated}){
     return(
         <>
       
-            <Header/>
+            <Header isAuthenticated={isAuthenticated}/>
             <Middle/>
             <Footer/>
         </>

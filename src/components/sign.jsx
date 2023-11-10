@@ -69,11 +69,11 @@ const[error,seterror]=useState(false)
                 onChange={handlechange}
               />
             </label>
-            <button type="submit">Signin</button>
+            <button type="submit" className="sign-rec">Signin</button>
           </form>
         </div>
         {error && <p> incorrect username or password</p>}
-        <h6><NavLink to="/register" className="nav-link" >Register</NavLink></h6>
+        <h5><NavLink to="/register" className="nav-link" >Register as new user</NavLink></h5>
         
       </div>
       {isAuthenticated && <Navigate to="/" />}

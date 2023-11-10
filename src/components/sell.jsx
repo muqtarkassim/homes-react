@@ -121,7 +121,7 @@ function handleSubmit(e){
             placeholder="Image URL"
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="sign-rec">Submit</button>
       </form>
     </div>
     <Footer/>

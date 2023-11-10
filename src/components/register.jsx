@@ -76,16 +76,16 @@ export default function Register() {
                 onChange={handleChange}
               />
             </label>
-            <button type="submit">Register</button>
+            <button type="submit" className="sign-rec">Register</button>
           </form>
         </div>
 
        
         {success && <p>succesfully registered as new user</p>}
 
-        <h6>
+        <h5>
           <NavLink to="/signin" className="nav-link" >Sign-in </NavLink>
-        </h6>
+        </h5>
       </div>
     </>
   );

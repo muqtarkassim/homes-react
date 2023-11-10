@@ -46,8 +46,9 @@ function handleSubmit(e){
 ////////////////////////>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<
   return (
     <>
+    <div className="headed-content">
     <h3> Enter your Home details here</h3>
-    <p> then submit to make it available in the markets</p>
+    <p> then submit to make it available in the markets</p> </div>
     <div className="form-data">
       <form onSubmit={(e) => handleSubmit(e)}>
         <div>
@@ -111,7 +112,7 @@ function handleSubmit(e){
           />
         </div>
         <div>
-          <label htmlFor="image">Image URL:</label>
+          <label htmlFor="image">Image:</label>
           <input
             type="text"
             name="image"

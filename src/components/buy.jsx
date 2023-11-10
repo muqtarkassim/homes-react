@@ -9,8 +9,8 @@ export default function BuyHome({data}){
 
     />)
     return(
-        <>  
-        <h3>Available Homes to buy</h3>
+        <>  <div className="headed-content">
+        <h3>Available Homes to buy</h3></div>
           <div className="All-buyCards">
 
            {home}

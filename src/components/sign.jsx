@@ -73,7 +73,7 @@ const[error,seterror]=useState(false)
           </form>
         </div>
         {error && <p> incorrect username or password</p>}
-        <h6><NavLink to="/register" >Register</NavLink></h6>
+        <h6><NavLink to="/register" className="nav-link" >Register</NavLink></h6>
         
       </div>
       {isAuthenticated && <Navigate to="/" />}

@@ -12,10 +12,10 @@ export default function Navbar({isAuthenticated,setisAuthenticated}) {
     <>
       <div className="header">
         <div className="group-1">
-          <p id="buy-id"><Link to= "/buy">Buy</Link></p>
-          <p id="rent-id"><Link to= "/rent">Rent</Link></p>
-          <p id="sell-id"><Link to= "/sell">Sell</Link></p>
-          <p id="agent-id"><Link to= "/agents">Agents</Link></p>
+          <p id="buy-id"><Link to= "/buy" className="link-style">Buy</Link></p>
+          <p id="rent-id"><Link to= "/rent" className="link-style">Rent</Link></p>
+          <p id="sell-id"><Link to= "/sell" className="link-style">Sell</Link></p>
+          <p id="agent-id"><Link to= "/agents" className="link-style">Agents</Link></p>
         </div>
         <div className="logo">
         <Link to= "/">
@@ -26,10 +26,10 @@ export default function Navbar({isAuthenticated,setisAuthenticated}) {
           <p>
             <a href="mailto:muqtarabdiaziz8.email@gmail.com">Email-me</a>
           </p>
-         { !isAuthenticated &&<p><Link to= "/signin">sign-in</Link> </p>}
+         { !isAuthenticated &&<p><Link to= "/signin" className="link-style">sign-in</Link> </p>}
          { isAuthenticated && <p
-              onClick={handlesignout}>sign-out
-                
+              onClick={handlesignout}>
+                <Link to= "/signin" className="link-style">sign-out</Link>
            
             
             </p>}

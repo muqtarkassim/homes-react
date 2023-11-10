@@ -19,7 +19,10 @@ export default function Agent({data}){
     )
     return(
         <>
-        <h3> Here is a list of Available Agents</h3>
+          <div className="headed-content">
+          <h3> Here is a list of Available Agents</h3>
+          </div>
+     
             <div className="container-head2">
                {mappeddata}
             </div>

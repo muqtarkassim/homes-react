@@ -36,3 +36,21 @@
     width: 100%;
     box-sizing: border-box;
   }
+  .headed-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: larger;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: blue
+   
+  }
+  .link-style{
+    text-decoration: none;
+    color: blue
+  }

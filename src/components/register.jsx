@@ -84,7 +84,7 @@ export default function Register() {
         {success && <p>succesfully registered as new user</p>}
 
         <h6>
-          <NavLink to="/signin">Sign-in </NavLink>
+          <NavLink to="/signin" className="nav-link" >Sign-in </NavLink>
         </h6>
       </div>
     </>

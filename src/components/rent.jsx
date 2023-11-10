@@ -9,8 +9,10 @@ export default function RentHome({data}){
 
     />)
     return(
-        <>  
-        <h3> Homes to rent </h3>
+        <>    <div className="headed-content">
+               <h3> Homes to rent </h3>
+        </div>
+       
           <div className="All-buyCards">
 
            {home}

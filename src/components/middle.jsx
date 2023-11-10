@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
                 <h3>Buy a home </h3>
                 <p>Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
                 <button  id="buy-homes">
-                <NavLink to= "/buy" >Buy homes</NavLink>
+                <NavLink to= "/buy" className="nav-link"  >Buy homes</NavLink>
                 </button>
             </div>
             </div>
@@ -21,7 +21,7 @@ import { NavLink } from "react-router-dom";
                     <h3>Sell a home </h3>
                     <p>Sell your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
                     <button id="sell-homes">
-                    <NavLink to= "/sell" >Sell homes</NavLink>
+                    <NavLink to= "/sell" className="nav-link"  >Sell homes</NavLink>
                     </button>
                 </div>
             </div>
@@ -31,7 +31,7 @@ import { NavLink } from "react-router-dom";
                     <h3>Rent a home </h3>
                     <p>Rent a place with an immersive photo experience and the most listings, including things you won’t find anywhere else.</p>
                     <button  id="rent-homes">
-                    <NavLink to= "/rent" >Rent homes</NavLink></button>
+                    <NavLink to= "/rent" className="nav-link" >Rent homes</NavLink></button>
                 </div>
             </div>
             </div>

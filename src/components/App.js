@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
+
 import "../css/style.css";
 import "../css/style3.css";
 import "../css/style2.css";
+import "../responsive.js";
 import Home from "./Home";
 import BuyHome from "./buy";
 import Sell from "./sell";

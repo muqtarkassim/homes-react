@@ -1,7 +1,8 @@
 import React from "react";
 import ig from "./images/2111463.png";
 import tw from "./images/5968958.png";
-import fb from "./images/5968764.png"
+import fb from "./images/5968764.png";
+
 import logoimg from "./images/png/logo-no-background.png"
 export default function Footer(){
     return (
@@ -40,6 +41,9 @@ export default function Footer(){
 
        </div>
    </div>
+   <div class="last-footer">
+        <img src="https://s.zillowstatic.com/pfs/static/footer-art.svg"/>
+    </div>
         </>
     )
 }

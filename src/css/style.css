@@ -14,9 +14,12 @@ a:hover{
     display: flex;
 align-items: center;
     justify-content: space-between;
-   
-    margin: 20px;
+    background-color: rgb(230, 236, 236);
+   padding: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
 }
+
 .logo img{
     width:300px
 }
@@ -247,8 +250,9 @@ font-size: small;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    transition: all 0.9s ease;
-    
+    transition: max-height 0.5s ease-in-out;
+    background-color: rgb(230, 236, 236);
+    margin-bottom: 30px;
   
 }
 @media screen and (min-width: 767px){
@@ -294,5 +298,8 @@ font-size: small;
     .group-1, .contact{
 
         display: none;
+    }
+    .header{
+        margin-bottom: 0px;
     }
 }
